@@ -14,10 +14,13 @@ function Hero() {
       <div className="hero-inner">
         {/* Colonne gauche — texte */}
         <div className="hero-text">
-          <p className="hero-eyebrow hero-anim anim-1">Agence web &amp; digital</p>
+          <p className="hero-eyebrow hero-anim anim-1">
+            Agence web &amp; digital
+          </p>
 
           <h1 className="hero-title hero-anim anim-2">
-            STRATON<br />
+            STRATON
+            <br />
             <span className="hero-title-accent">CODE</span>
           </h1>
 
@@ -31,8 +34,12 @@ function Hero() {
           </p>
 
           <div className="hero-actions hero-anim anim-5">
-            <a href="#contact" className="hero-btn primary">Demander un devis</a>
-            <a href="#realisations" className="hero-btn secondary">Voir les réalisations</a>
+            <a href="#contact" className="hero-btn primary">
+              Demander un devis
+            </a>
+            <a href="#realisations" className="hero-btn secondary">
+              Voir les réalisations
+            </a>
           </div>
 
           <div className="hero-badges hero-anim anim-6">
@@ -48,7 +55,7 @@ function Hero() {
         {/* Colonne droite — image */}
         <div className="hero-visual hero-anim anim-visual">
           <img
-            src="/Hero_PC_Tel.png"
+            src={`${import.meta.env.BASE_URL}Hero_PC_Tel.png`}
             alt="Aperçu d'un site web sur ordinateur et mobile"
             className="hero-mockup-img"
           />
