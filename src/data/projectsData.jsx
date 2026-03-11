@@ -8,7 +8,7 @@ const projects = [
     image: "/projects/belle-adresse.png",
     imageAlt: "Aperçu du site CleanLab Façade",
     link: "https://cleanlabfacade.netlify.app/",
-    linkLabel: "Voir la maquette",
+    linkLabel: "Voir le projet",
   },
   {
     title: "MenuPro",
