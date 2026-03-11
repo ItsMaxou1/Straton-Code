@@ -1,13 +1,13 @@
 const projects = [
   {
-    title: "La Belle Adresse",
+    title: "Cleanlab Façade",
     type: "Site vitrine",
     description:
-      "Une agence immobilière locale souhaitait une présence en ligne moderne pour attirer de nouveaux clients.",
+      "Un indépendant locale dans le nettoyage de façade souhaitait une présence en ligne moderne pour attirer de nouveaux clients.",
     tags: ["React", "Site vitrine", "SEO local"],
     image: "/projects/belle-adresse.png",
-    imageAlt: "Aperçu du site La Belle Adresse",
-    link: null,
+    imageAlt: "Aperçu du site CleanLab Façade",
+    link: "https://cleanlabfacade.netlify.app/",
     linkLabel: "Voir la maquette",
   },
   {
